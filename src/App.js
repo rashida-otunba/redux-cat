@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import AddCat from './components/AddCat';
+import CatList from './components/CatList';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>
+        Cat To Do List 
+      </h1>
+      <AddCat/>
+      <CatList />
+
     </div>
   );
 }
